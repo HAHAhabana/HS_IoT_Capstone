@@ -1,0 +1,11 @@
+!pip install roboflow
+
+from roboflow import Roboflow
+rf = Roboflow(api_key="wBBtLtd7w1xt25QqzwUL")
+project = rf.workspace("school-umm8q").project("jikidu")
+dataset = project.version(3).download("yolov5")
+
+
+
+///yolov5 dataset은 용량이 너무 커서 github에 올라가지 않아 부득이하게 다운로드 코드로 대체하였습니다. 
+///양해 부탁드립니다.
