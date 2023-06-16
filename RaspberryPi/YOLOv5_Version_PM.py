@@ -44,7 +44,7 @@ while True:
         
     print(results_str)
     
-     #만약 'results_str' 안에 'Road' 또는 'Bike라는 클래스가 존재하면 count를 0으로 초기화
+     #만약 'results_str' 안에 'Road' 또는 'BikeRoad라는 클래스가 존재하면 count를 0으로 초기화
     if "Road" in results_str or "BikeRoad" in results_str:
         count = 0
         print(count)
